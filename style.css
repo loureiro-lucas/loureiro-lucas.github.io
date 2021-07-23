@@ -3,11 +3,13 @@ body {
   color: #615756;
   font-size: 18px;
   font-family: 'noto sans', sans-serif;
+  
 }
 
 h1 {
   background-color: #9C914F;
   color: #FFFDFD;
+  text-align: right;
 
   padding: 10px 20px;
 }
