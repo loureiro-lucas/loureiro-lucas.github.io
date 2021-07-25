@@ -1,21 +1,40 @@
 body {
   background-color: #FFFDFD;
-  color: #615756;
+  color: #9C914F;
   font-size: 18px;
   font-family: 'noto sans', sans-serif;
   
 }
 
+.name-and-index {
+  text-align: right;
+}
+
 h1 {
   background-color: #9C914F;
   color: #FFFDFD;
-  text-align: right;
-
   padding: 10px 20px;
+}
+
+h2 {
+  color: #615756;
+}
+
+h3 {
+  color: #615756;
 }
 
 a {
   text-decoration: none;
   color: #615756;
+  text-align: right;
 }
 
+.photo {
+  align-items: center;
+}
+
+.ytchs {
+  font-weight: 600;
+  color:#615756;
+}
