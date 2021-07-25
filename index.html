@@ -14,58 +14,66 @@
   </head>
 
   <body>
-    <div class="name-and-index">
-      <!--NAME-->
+
+    <!--NAME-->
+    <div class="name">
       <h1 title="Yea, that's my name!">Lucas Loureiro</h1>
-
-      <!--INDEX-->
-      <a href="#about" title='click me!'>Lucas who?</a><br>
-
-      <a href="#skills" title='no, click ME!'>skillset</a><br>
-
-      <a href="#links" title="of course I'm the best one, just do it!">cool links</a><br>
-
-      <a href="#contact" title="you know you wanna click me..">know me better</a><br>
     </div>
 
-    <div class="photo">
+    <div class="photo-index-about">
       <!--PHOTO-->
-      <img title="a well diagrammed face, isn't it?" src="/images/IMG_0143(1).jpg" alt="Foto de um homem com cabelos curtos, camisa cinza e piercing no nariz, com uma árvore seca e um céu azul ao fundo." width="500px">
+      <img id="photo" title="a well diagrammed face, isn't it?" src="/images/IMG_0143(1).jpg" alt="Foto de um homem com cabelos curtos, camisa cinza e piercing no nariz, com uma árvore seca e um céu azul ao fundo.">
+      
+      <!--INDEX-->
+      <div id="index">   
+        <ul>
+          <li><a href="#about" title='click me!'>Lucas who?</a></li><br>
+
+          <li><a href="#skills" title='no, click ME!'>skillset</a></li><br>
+
+          <li><a href="#links" title="of course I'm the best one, just do it!">cool links</a></li><br>
+
+          <li><a href="#contact" title="you know you wanna click me..">know me better</li></a>
+        </ul>
+      </div>
+
+      <!--ABOUT-->
+      <div id="about"></div>
+        <h2 title='this will be interesting'>some words about me</h2>
+
+        <p title="just read the text! ;s ">
+          Passionate about tech, I'm a professor undergoing career transition to <span class="highlight">Software Development</span>.<br><br>I'm from Belo Horizonte city, MG, and I'm 26. I teach biology and chemistry for high school/technical college entrance exam classes and, now, I'm studying <span class="highlight">Full Stack Web Development</span> at <span class="highlight"></span>Trybe</span>.
+        </p>
+      </div>
+
+    <!--SKILLS-->
+    <div id="skills">
+      <h2 title="alright, now i'll get your attention!">skills that i'm proud about</h2>
+      <h3 title="this list grows every single day">soft ones</h3>
+      <ul title="this list grows every single day">
+        <li>teamwork</li>
+        <li>organization</li>
+        <li>problem-solving</li>
+        <li>analysis</li>
+        <li>comunication</li>
+        <li>empathy</li>
+        <li>conflict management</li>
+      </ul>
+      <h3 title="this one too">hard ones</h3>
+      <ul title="this one too">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
     </div>
-
-    <!--ABOUT-->
-    <h2 id="about" title='this will be interesting'>some words about me</h2>
-
-    <p title="just read the text! ;s ">
-      Passionate about tech, I'm a professor undergoing career transition to <strong>Software Development</strong>.<br><br>I'm from Belo Horizonte city, MG, and I'm 26. I teach biology and chemistry for high school/technical college entrance exam classes and, now, I'm studying <strong>Full Stack Web Development at Trybe</strong>.
-    </p>
-
-    <!--SKILLS-->  
-    <h2 id="skills" title="alright, now i'll get your attention!">skills that i'm proud about</h2>
-    <h3 title="this list grows every single day">soft ones</h3>
-    <ul title="this list grows every single day">
-      <li>teamwork</li>
-      <li>organization</li>
-      <li>problem-solving</li>
-      <li>analysis</li>
-      <li>comunication</li>
-      <li>empathy</li>
-      <li>conflict management</li>
-    </ul>
-    <h3 title="this one too">hard ones</h3>
-    <ul title="this one too">
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-    </ul>
 
     <!--LINKS-->
     <h2 id="links" title="yea, this shoud be called youtube channels">cool links</h2>
 
     <p>
-      First of all, let's talk about tech! <a href="https://www.youtube.com/TheVerge"><span class="ytchs">The Verge</span></a> is my favorite tech news channel, and it's one of the biggest in the world. <a href="https://www.youtube.com/BiteSizeTech"><span class="ytchs">Bite Size Tech</span></a> is a live cuts channel focused in tips about hardware, mostly about this market. <a href="https://www.youtube.com/DigitalFoundry"><span class="ytchs">Digital Foundry</span></a> and <a href="https://www.youtube.com/HardwareUnboxed"><span class="ytchs">Hardware Unboxed</span></a> makes, in my opinion, the bests technical game analysis and, as we're talking about games, <a href="https://www.youtube.com/TATICADS"><span class="ytchs">TATICADS</span></a> plays the best of souls-like games. I'll finish this topic with <a href="https://www.youtube.com/Dave2D" target="_blank"><span class="ytchs">Dave2D</span></a>, a really great youtube channel that makes very nice reviews about tech, well made content, very different from most channels of this type, witch produces shallow and generic stuff.<br>
-      If you're starting your studies in software development, I have to recommend you <a href="https://www.youtube.com/Trybe"><span class="ytchs">Trybe</span></a> Channel, <a href="https://www.youtube.com/FabioAkita"><span class="ytchs">Fabio Akita</span></a> and <a href="https://www.youtube.com/CodigoFonteTV"><span class="ytchs">Código Fonte TV</span></a>, where you can find very useful information; and <a href="https://www.youtube.com/Diolinux"><span class="ytchs">Diolinux</span></a>, where you find everything about our beloved linux.<br>
-      In case music is your 'thing', <a href="https://www.youtube.com/MINDTHEHEADPHONE"><span class="ytchs">MIND THE HEADPHONE</span></a> is the best in sound hardware, and if you want to watch great shows in stunning places, <a href="https://www.youtube.com/Cercle"><span class="ytchs">Cercle</span></a> is the way to go.<br>
+      First of all, let's talk about tech! <a href="https://www.youtube.com/TheVerge"><span class="highlight">The Verge</span></a> is my favorite tech news channel, and it's one of the biggest in the world. <a href="https://www.youtube.com/BiteSizeTech"><span class="highlight">Bite Size Tech</span></a> is a live cuts channel focused in tips about hardware, mostly about this market. <a href="https://www.youtube.com/DigitalFoundry"><span class="highlight">Digital Foundry</span></a> and <a href="https://www.youtube.com/HardwareUnboxed"><span class="highlight">Hardware Unboxed</span></a> makes, in my opinion, the bests technical game analysis and, as we're talking about games, <a href="https://www.youtube.com/TATICADS"><span class="highlight">TATICADS</span></a> plays the best of souls-like games. I'll finish this topic with <a href="https://www.youtube.com/Dave2D" target="_blank"><span class="highlight">Dave2D</span></a>, a really great youtube channel that makes very nice reviews about tech, well made content, very different from most channels of this type, witch produces shallow and generic stuff.<br>
+      If you're starting your studies in software development, I have to recommend you <a href="https://www.youtube.com/Trybe"><span class="highlight">Trybe</span></a> Channel, <a href="https://www.youtube.com/FabioAkita"><span class="highlight">Fabio Akita</span></a> and <a href="https://www.youtube.com/CodigoFonteTV"><span class="highlight">Código Fonte TV</span></a>, where you can find very useful information; and <a href="https://www.youtube.com/Diolinux"><span class="highlight">Diolinux</span></a>, where you find everything about our beloved linux.<br>
+      In case music is your 'thing', <a href="https://www.youtube.com/MINDTHEHEADPHONE"><span class="highlight">MIND THE HEADPHONE</span></a> is the best in sound hardware, and if you want to watch great shows in stunning places, <a href="https://www.youtube.com/Cercle"><span class="highlight">Cercle</span></a> is the way to go.<br>
 
     </p>
 
