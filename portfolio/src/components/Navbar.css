@@ -1,0 +1,10 @@
+.navbar-container {
+  display: flex;
+}
+
+.menu-items-container {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+  list-style: none;
+}
