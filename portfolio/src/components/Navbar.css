@@ -1,5 +1,7 @@
 .navbar-container {
+  background-color: rgb(148, 238, 238);
   display: flex;
+  height: 50px;
 }
 
 .menu-items-container {
@@ -19,17 +21,24 @@
 
 .menu-icon {
   display: none;
+  padding-left: 10px;
+}
+
+.fas {
+  margin: auto;
 }
 
 @media screen and (max-width: 510px) {
   .navbar-container {
     position: relative;
+    background-color:rgb(214, 169, 255);
+
   }
   
   .menu-items-container {
     flex-direction: column;
-    top: 80px;
-    height: 500px;
+    top: 50px;
+    height: calc(100vh - 50px);
     position: absolute;
     opacity: 1;
     left: -100%;
@@ -49,10 +58,11 @@
   }
 
   .menu-icon {
-    display: block;
-    position: absolute;
+    display: flex;
+    height: 100%;
+    /* position: absolute;
     top: 0;
-    left: 0;
+    left: 0; */
     cursor: pointer;
   }
 }
